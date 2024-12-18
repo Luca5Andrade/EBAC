@@ -1,2 +1,2 @@
 # exemplos-ebac
-Exemplos de projetor para o curso da EBAC
+Exemplos de projetos para o curso da EBAC
