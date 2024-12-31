@@ -9,6 +9,13 @@ public class Cliente {
     private String email;
     private String telefone;
 
+    /**
+     * Constructor da classe
+     * @param nome
+     * @param idade
+     * @param email
+     * @param telefone
+     */
     public Cliente(String nome, int idade, String email, String telefone) {
         this.nome = nome;
         this.idade = idade;
@@ -48,6 +55,7 @@ public class Cliente {
         this.telefone = telefone;
     }
 
+    //Exibe toda informaçao do usuario
     public void exibirInformacoes() {
         System.out.println("Informaçoes do cliente");
         System.out.println("Nome: " + this.nome);
@@ -56,6 +64,10 @@ public class Cliente {
         System.out.println("Telefone " + this.telefone);
     }
 
+    /**
+     * dar ola com o nome do cliente
+     * @return
+     */
     public String cumprimetarCliente() {
         return "Olá, " + this.nome + "!";
     }
